@@ -1,3 +1,19 @@
+//Prosta pętla która wydrukuje zmienną result z sumą liczb od 0 do 5
+let result = 0;
+for (let i = 0; i <= 5; i++) {
+    result = result + i;
+}
+console.log(result);
+
+
+//Prosta pętla drukująca liczby od zera do 10 
+
+for (let i = 0; i <= 10; i++) {
+    console.log(i);
+}
+
+
+
 //Instrukcja warunkowa switch - oceń zmienną grade i dla 4 wydrukuj 'dobry' a dla 3 wydrukuj dostateczny, dla innych
 // error
 
