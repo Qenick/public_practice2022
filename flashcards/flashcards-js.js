@@ -1,3 +1,23 @@
+//Instrukcja warunkowa switch - oceń zmienną grade i dla 4 wydrukuj 'dobry' a dla 3 wydrukuj dostateczny, dla innych
+// error
+
+switch(grade) {
+    case 4: {
+        console.log('dobry');
+        break;
+    }
+    case 3: {
+        console.log('dostateczny');
+        break;
+    }
+    default: {
+        console.log('error');
+    }
+}
+
+
+
+
 //Prosta instrukcja warunkowa - jeśli age jest większe lub równe 18 to wydrukuj 'Jesteś pełnoletni', jeśli nie to
 // wydrukuj 'Jesteś nieletni'.
 
