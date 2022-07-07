@@ -1,3 +1,37 @@
+//Dopisać funkcje i funkcje anonimowe
+
+
+
+//Napisz funkcje czasu która co sekunde będzie drukowała 1 i zostanie wyłączona po 5 sekundach
+const intervalID = setInterval(function () {
+    console.log("Działam co sekundę!");
+}, 1000);
+
+const timeoutID = setTimeout( function () {
+    clearInterval(intervalID);
+}, 5000);
+
+
+//Na końcu tablicy nums dodaj 4
+nums.push(4);
+
+//Połącz wartości z tablicy nums w jednego stringa rozdzielając spacją
+nums.join(' ');
+
+//Zwróć indeks wartości 1 z tablicy nums
+nums.indexOf(1);
+
+//Stwórz tablice nums z liczbami 1 2 3
+const nums = [1, 2, 3];
+
+
+
+//Pętla wypisująca po kolei wszystkie wartości z tablicy nums
+for (let i = 0; i <= nums.length - 1; i++) {
+    console.log(nums[i]);
+}
+
+
 //Prosta pętla która wydrukuje zmienną result z sumą liczb od 0 do 5
 let result = 0;
 for (let i = 0; i <= 5; i++) {
