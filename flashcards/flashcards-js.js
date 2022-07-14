@@ -1,3 +1,27 @@
+//ES6
+
+
+//tworzenie class
+//constructor
+//dziedziczenie extendsm 
+//super
+//metody
+//spread operator - tablice, stringi, obiekty(ze zmianą stanu obiektu)
+//rest operator
+//destrukturyzacja list
+//destrukturyzacja obiektów
+//destrukturyzacja obiektów ze zmianą nazwy klucz/zmienna
+//Prostsze przypisywanie zmiennych do kluczy obietów w notacji ES6
+//Eksport/import w ES5.
+//Eksport/import w ES6.
+
+//ES5 
+// tworzenie konstruktora bez parametrów
+// tworzenie konstruktora z parametrami
+// tworzenie obiektu na podstawie konstruktora
+// dodawanie do konstruktora metody poprzez łańcuch prototypów
+
+
 //Dopisać funkcje i funkcje anonimowe
 
 
